@@ -22,8 +22,10 @@ mongoose.connect(process.env.MONGOOSEDB).then(()=>console.log("BD connected")).t
 
 
 
+const databaseSeeder = require("./databaseSeeder")
 
-
+// database seeder 
+app.use("/api/seed",  databaseSeeder )
 
 
 app.listen( 3000 , () => {
