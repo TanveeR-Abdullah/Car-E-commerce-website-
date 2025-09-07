@@ -1,6 +1,6 @@
 const products = [
     {
-        id : "1",
+       
         name :" BMW M4 ",
         Image :"./bmw-m4.jpg",
         description : "The BMW M4 is a high-performance sports coupe known for its powerful engine, sporty handling, and track-focused capabilities. It's part of BMW's M series, which is known for its focus on performance and driving dynamicsThe BMW M4 is a high-performance sports coupe known for its powerful engine, sporty handling, and track-focused capabilities. It's part of BMW's M series, which is known for its focus on performance and driving dynamics",
